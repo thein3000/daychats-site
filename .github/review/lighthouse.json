@@ -1,0 +1,74 @@
+[
+  {
+    "page": "landing-mobile",
+    "lighthouseVersion": "13.4.1",
+    "fetchTime": "2026-09-09T10:31:05.427Z",
+    "url": "http://127.0.0.1:8765/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8\u00a0s",
+      "largest-contentful-paint": "0.8\u00a0s",
+      "total-blocking-time": "0\u00a0ms",
+      "cumulative-layout-shift": "0"
+    }
+  },
+  {
+    "page": "landing-desktop",
+    "lighthouseVersion": "13.4.1",
+    "fetchTime": "2026-09-09T10:31:15.513Z",
+    "url": "http://127.0.0.1:8765/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2\u00a0s",
+      "largest-contentful-paint": "0.2\u00a0s",
+      "total-blocking-time": "0\u00a0ms",
+      "cumulative-layout-shift": "0"
+    }
+  },
+  {
+    "page": "privacy-mobile",
+    "lighthouseVersion": "13.4.1",
+    "fetchTime": "2026-09-09T10:31:25.646Z",
+    "url": "http://127.0.0.1:8765/privacy/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.8\u00a0s",
+      "largest-contentful-paint": "0.8\u00a0s",
+      "total-blocking-time": "0\u00a0ms",
+      "cumulative-layout-shift": "0"
+    }
+  },
+  {
+    "page": "privacy-desktop",
+    "lighthouseVersion": "13.4.1",
+    "fetchTime": "2026-09-09T10:31:35.663Z",
+    "url": "http://127.0.0.1:8765/privacy/",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.2\u00a0s",
+      "largest-contentful-paint": "0.2\u00a0s",
+      "total-blocking-time": "0\u00a0ms",
+      "cumulative-layout-shift": "0"
+    }
+  }
+]
