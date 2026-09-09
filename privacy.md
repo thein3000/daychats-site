@@ -70,4 +70,4 @@ If we change this policy, we will update the effective date above and publish th
 
 ## 13. Contact
 
-Questions about this policy or the App: thein300000@gmail.com
+Questions about this policy or the App: support@daychats.com
