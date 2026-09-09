@@ -1,0 +1,122 @@
+[
+  {
+    "route": "/",
+    "width": 360,
+    "overflow": false,
+    "heading": "A little of today.Kept for you.",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "overflow": false,
+    "heading": "A little of today.Kept for you.",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/",
+    "width": 700,
+    "overflow": false,
+    "heading": "A little of today.Kept for you.",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/",
+    "width": 1280,
+    "overflow": false,
+    "heading": "A little of today.Kept for you.",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "overflow": false,
+    "heading": "A little of today.Kept for you.",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/privacy/",
+    "width": 360,
+    "overflow": false,
+    "heading": "Day Chats — Privacy Policy",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/privacy/",
+    "width": 390,
+    "overflow": false,
+    "heading": "Day Chats — Privacy Policy",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/privacy/",
+    "width": 700,
+    "overflow": false,
+    "heading": "Day Chats — Privacy Policy",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/privacy/",
+    "width": 1280,
+    "overflow": false,
+    "heading": "Day Chats — Privacy Policy",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  },
+  {
+    "route": "/privacy/",
+    "width": 1440,
+    "overflow": false,
+    "heading": "Day Chats — Privacy Policy",
+    "images": true,
+    "scripts": 0,
+    "forms": 0,
+    "cookies": "",
+    "links": true,
+    "externalRequests": []
+  }
+]
