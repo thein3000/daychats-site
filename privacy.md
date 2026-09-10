@@ -1,6 +1,6 @@
 # Day Chats — Privacy Policy
 
-**Effective date:** [DATE OF THE AI RELEASE]
+**Effective date:** 10 September 2026
 **Developer:** Oscar Abrego (individual developer, "we", "us")
 **Applies to:** the Day Chats iOS application ("the App"), including beta versions distributed through TestFlight
 
