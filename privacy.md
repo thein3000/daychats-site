@@ -1,16 +1,16 @@
 # Day Chats — Privacy Policy
 
-**Effective date:** 9 September 2026
+**Effective date:** [DATE OF THE AI RELEASE]
 **Developer:** Oscar Abrego (individual developer, "we", "us")
 **Applies to:** the Day Chats iOS application ("the App"), including beta versions distributed through TestFlight
 
 ## 1. Summary
 
-Day Chats is a personal diary that stores everything on your device. The App has no user accounts, no servers, and no analytics. We do not collect, receive, transmit, sell, or share any personal information. Your entries leave your device only when you export them yourself.
+Day Chats is a personal diary that stores everything on your device. The App has no user accounts, no servers, and no analytics. We do not collect, receive, transmit, sell, or share any personal information. Your entries leave your device only when you export them yourself, or when you choose to send them to an AI provider you configured with your own key (section 7).
 
 ## 2. Information we collect
 
-We collect **no** personal information, and the App makes **no** network connections. Specifically, the App does not collect or transmit:
+We collect **no** personal information. The App makes **no** network connections on its own; the only connections it ever makes are the ones described in section 7, which happen only if you register an AI provider key and only when you run a query. Specifically, the App does not collect or transmit to us:
 
 - your diary entries, photos, or captions;
 - your name or reference name;
@@ -44,9 +44,16 @@ You can change these permissions at any time in the iOS Settings app.
 
 The App can render your entries as a text file or copy them to the clipboard. This happens only when you tap an export or copy action. What you do with an exported file, including sharing it with other apps or services, is under your control and subject to those services' policies.
 
-## 7. Third parties
+## 7. Optional AI features and third-party providers
 
-The App uses no third-party software development kits, advertising, analytics, or cloud services. We share no information with anyone.
+The App can answer questions about your diary using an AI provider such as OpenAI. This is off until you register your own API key for that provider in Settings.
+
+- **What is sent:** when you run a query, the App sends the provider your question and the diary entries in the date range you selected (text, photo captions, and the on-device photo tags). Photos themselves are never sent. Nothing is sent at any other time.
+- **Who receives it:** only the provider you chose, under that provider's own terms and privacy policy, using your key and your account with them. We are not a party to that transfer and receive nothing.
+- **Your key:** stored in the iOS Keychain on your device only. It is never included in exports or backups, and it is not sent anywhere except to that provider to authenticate your requests.
+- **Answers:** stored on your device with your entries; you can delete them at any time.
+
+Apart from this, the App uses no third-party software development kits, advertising, analytics, or cloud services. We share no information with anyone.
 
 ## 8. TestFlight beta versions
 
