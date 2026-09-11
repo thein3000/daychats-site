@@ -133,13 +133,13 @@ pre { margin: 1.25rem 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font:
 </header>
 <main id="main" tabindex="-1" class="policy wrap">
 <h1>Day Chats — Privacy Policy</h1>
-<p><strong>Effective date:</strong> 10 September 2026</p>
+<p><strong>Effective date:</strong> 11 September 2026</p>
 <p><strong>Developer:</strong> Oscar Abrego (individual developer, &quot;we&quot;, &quot;us&quot;)</p>
 <p><strong>Applies to:</strong> the Day Chats iOS application (&quot;the App&quot;), including beta versions distributed through TestFlight</p>
 <h2>1. Summary</h2>
 <p>Day Chats is a personal diary that stores everything on your device. The App has no user accounts, no servers, and no analytics. We do not collect, receive, transmit, sell, or share any personal information. Your entries leave your device only when you export them yourself, or when you choose to send them to an AI provider you configured with your own key (section 7).</p>
 <h2>2. Information we collect</h2>
-<p>We collect <strong>no</strong> personal information. The App makes <strong>no</strong> network connections on its own; the only connections it ever makes are the ones described in section 7, which happen only if you register an AI provider key and only when you run a query. Specifically, the App does not collect or transmit to us:</p>
+<p>We collect <strong>no</strong> personal information. The App makes <strong>no</strong> network connections on its own; the only connections it ever makes are the ones described in section 7, which happen only if you register an AI provider key and only when you ask a question or analyze a calendar. Specifically, the App does not collect or transmit to us:</p>
 <ul>
 <li>your diary entries, photos, or captions;</li>
 <li>your name or reference name;</li>
@@ -153,6 +153,7 @@ pre { margin: 1.25rem 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font:
 <li><strong>Photos you add</strong>: a copy of each photo you choose, kept inside the App. Adding a photo does not give the App access to your photo library.</li>
 <li><strong>Photo descriptions</strong>: short machine-generated tags for photos you add, produced on your device by Apple&#x27;s Vision framework. They are used only in your exports and are never sent anywhere.</li>
 <li><strong>Preferences</strong>: the name you chose to be referenced by, the selected theme, and the Face ID and lock-delay settings.</li>
+<li><strong>AI answers and calendars</strong> (only if you use the optional AI features, section 7): the answers to questions you asked, and the calendars you set up, meaning the question, its answer categories, and each day&#x27;s answer with a short reason. They stay on your device and are included in backups you make.</li>
 </ul>
 <p>This data is protected with iOS data protection while your device is locked. It is included in your device&#x27;s iCloud or computer backups, which are governed by Apple&#x27;s privacy policy, not by ours.</p>
 <h2>4. Face ID</h2>
@@ -167,12 +168,12 @@ pre { margin: 1.25rem 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font:
 <h2>6. Exports and sharing</h2>
 <p>The App can render your entries as a text file or copy them to the clipboard. This happens only when you tap an export or copy action. What you do with an exported file, including sharing it with other apps or services, is under your control and subject to those services&#x27; policies.</p>
 <h2>7. Optional AI features and third-party providers</h2>
-<p>The App can answer questions about your diary using an AI provider such as OpenAI. This is off until you register your own API key for that provider in Settings.</p>
+<p>The App can answer questions about your diary, and sort your days onto a calendar by a question you choose, using an AI provider such as OpenAI. This is off until you register your own API key for that provider in Settings.</p>
 <ul>
-<li><strong>What is sent:</strong> when you run a query, the App sends the provider your question and the diary entries in the date range you selected (text, photo captions, and the on-device photo tags). Photos themselves are never sent. Nothing is sent at any other time.</li>
+<li><strong>What is sent:</strong> when you ask a question, the App sends the provider your question and the diary entries in the date range you selected (text, photo captions, and the on-device photo tags). When you analyze a calendar, it sends that calendar&#x27;s question and the entries of the days being analyzed, in small batches; later updates send only days that are new or changed. When you type a question to set up a calendar, only that sentence is sent, so the provider can suggest answer categories. Photos themselves are never sent. Nothing is sent at any other time.</li>
 <li><strong>Who receives it:</strong> only the provider you chose, under that provider&#x27;s own terms and privacy policy, using your key and your account with them. We are not a party to that transfer and receive nothing.</li>
 <li><strong>Your key:</strong> stored in the iOS Keychain on your device only. It is never included in exports or backups, and it is not sent anywhere except to that provider to authenticate your requests.</li>
-<li><strong>Answers:</strong> stored on your device with your entries; you can delete them at any time.</li>
+<li><strong>Answers and calendars:</strong> stored on your device with your entries; you can delete them at any time.</li>
 </ul>
 <p>Apart from this, the App uses no third-party software development kits, advertising, analytics, or cloud services. We share no information with anyone.</p>
 <h2>8. TestFlight beta versions</h2>
